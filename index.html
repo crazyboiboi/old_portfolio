@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sean's Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/fixed.css">
+ 
+
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<!-- Home Section-->
+<div id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="mainNav">
+        <a class="navbar-brand js-scroll-trigger" href="#home"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>    
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mx-auto"> <!-- md/mx/ml for alignment-->
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#home">Home</a>                    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Landing Page Section -->
+    <div class="landing">
+        <div class="home-wrap">
+            <div class="home-inner">
+            </div>
+        </div>
+    </div>
+
+    <div class="caption text-center">
+        <h1>Welcome to my Portfolio</h1>
+
+        <ul class="icons animated bounce infinite">
+            <!-- <li> <a href="https://twitter.com/crazyboiboi1" target="_blank"><i class ="fab fa-twitter-square"></i></a> </li> -->
+            <li> <a href="https://github.com/crazyboiboi" target="_blank"><i class ="fab fa-github"></i></a> </li>
+            <li> <a href="https://www.linkedin.com/in/ses99/" target="_blank"><i class ="fab fa-linkedin-in"></i></a> </li>
+        </ul>
+
+        <a class="btn btn-outline-light btn-lg js-scroll-trigger" href="#about">Get Started</a>
+    </div>
+    <!-- End Landing Page Section -->
+</div>
+<!-- End Home Section -->
+
+
+       
+<!-- About Section-->
+<div id="about" class="offset">
+    <div class="col-12 narrow">
+        <div class="col-12">
+            <h3 class="heading text-center"> About </h3>
+            <div class="heading-underline"> </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-4 profile">
+                    <img src="../images/Me.jpg">
+                </div>
+                <div class="col-md-8">
+                    <p> My name is Sean Seow. I am currently a second year undergraduate studying
+                        Computer Science in Aberystwyth University, Wales. My interest primarily focuses
+                        on Game Development however I also enjoy picking up and learning other things.
+                        I am determined and willing to take on challenges in order to improve and achieve my
+                        life goals. </p>
+                    <p> <br> Programming Languages<br><strong>C#</strong>, <strong>Java</strong>, C++, Python, HTML/CSS</p>
+
+                    <em><br>I am happy to collaborate and work together. Drop me a message sometimes :)</em>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="container text-center">
+            <a class="btn btn-outline-dark btn-lg" href="#">Resume</a>
+        </div> -->
+
+    </div>
+</div>
+<!-- End About Section -->
+  
+
+
+<!-- Portfolio Section-->
+<div id="portfolio" class="offset">    
+    <!-- Jumbotron is a grey background section by Bootstrap-->
+    <div class="container-fluid">
+        <div class="narrow text-center">
+            <div class="col-12">
+                <h3 class="heading"> Portfolio </h3>
+                <div class="heading-underline"> </div>
+            </div>
+            
+
+            <div class="col-12">
+                <p> The list below showcase some of my projects including games and windows applications. Since 
+                    I have not added individual pages for the projects, I have included a github link for the 
+                    projects where details and pictures can be found.
+                </p>
+            </div>
+
+
+            
+            <!-- Create a category section here -->
+            <div class="row text-left">
+                <!-- For every project:
+                     Picture -> Title -> Written in -> Genre -> Github link
+                    When hover to picture, zoom and highlight
+                    When picture is clicked, open a slideshow display -->
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <h3>Light My Way</h3>
+                        <em> C# Unity Engine </em>
+                        <p> A 2D levelled platformer where the player plays as a Cube character and gathers
+                            all light orbs to surpass the levels. </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <h3>Cube Shooter</h3>
+                        <em> C# Unity Engine </em>
+                        <p> A 3D arcade shooter game where the player runs around in a confined area and 
+                            getting chased by pills-like enemies of various types. </p>
+                        
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="container">
+                        <a class="btn btn-outline-dark btn-sm" href="#"><i class="fab fa-github"> Open Github </i></a>
+                    </div>                
+                </div>
+                <div class="col-md-6">
+                    <div class="container">
+                        <a class="btn btn-outline-dark btn-sm" href="#"><i class="fab fa-github"> Open Github </i></a>
+                    </div>                
+                </div>
+
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <h3>Bunny Jump</h3>
+                        <em> C++ SFML </em>
+                        <p> A 2D vertical scrolling platformer game. You play as a bunny and simply make your
+                            way to the very top. The game is still developing in progress, with more exciting
+                            mechanics to be added. </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <h3> MVVM Example </h3>
+                        <em> C# MVVM Framework </em>
+                        <p> A basic MVVM application that shows how to use the framework. Includes data-binding, 
+                            event property changed and commands.  </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="container">
+                        <a class="btn btn-outline-dark btn-sm" href="#"><i class="fab fa-github"> Open Github </i></a>
+                    </div>                
+                </div>
+                <div class="col-md-6">
+                    <div class="container">
+                        <a class="btn btn-outline-dark btn-sm" href="#"><i class="fab fa-github"> Open Github </i></a>
+                    </div>                
+                </div>
+
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <h3> System Cost Calculation</h3>
+                        <em> C# MVVM Framework </em>
+                        <p> A Windows application which allows you to store items and suppliers. Also, it facilitates 
+                            template creating where the user can add/combine items from different suppliers and setting
+                            price and discounts. Lastly, the template's items are calculated and projected as a report </p>
+                    </div>
+                    <div class="container">
+                        <a class="btn btn-outline-dark btn-sm" href="#"><i class="fab fa-github"> Open Github </i></a>
+                    </div>
+                </div>
+
+            </div> <!-- End of portfolio row -->
+        </div> <!-- End of narrow -->
+    </div> <!-- End of container -->
+</div>
+<!-- End Portfolio Section -->
+
+
+
+
+
+
+
+<!-- FUTURE: BLOG SECTION -->
+
+
+
+<!-- Contact Section-->
+<div id="contact" class="offset">
+    <footer>
+        <div class="row justify-content-center">
+            
+            <div class="col-md-5 text-center">
+                <strong> Feel free to drop me a message or contact me! I will get back to you
+                    as soon as possible. Have a great day! </strong>
+                <p> Email: shsuen99@outlook.com <br> Phone: 07470 7678 77 </p>
+
+                <ul class="icons-footer">
+                    <!-- <li> <a href="https://twitter.com/crazyboiboi1" target="_blank"><i class ="fab fa-twitter-square"></i></a> </li> -->
+                    <li> <a href="https://github.com/crazyboiboi" target="_blank"><i class ="fab fa-github"></i></a> </li>
+                    <li> <a href="https://www.linkedin.com/in/ses99/" target="_blank"><i class ="fab fa-linkedin-in"></i></a> </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="line">
+        <p class="text-center"> &copy; Copyright | This website is made by Sean Seow</p>
+
+        
+    </footer>
+
+</div>
+<!-- End About Section -->
+
+
+    
+
+
+
+
+
+
+
+<!-- Javascript goes here -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-easing/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src='js/main.js'></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+<!-- Useful Resources
+
+1. Adding Icons 
+<a href="" target="_blank"><i class ="fab fa-"></i></a>
+
+2.
+
+
+-->
