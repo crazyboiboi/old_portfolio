@@ -10,7 +10,8 @@ body {
 .offset:before {
     display:block;
     content: "";
-    height: 2rem;
+    height: 4rem;
+    /* margin-top: -3rem; */
 }
 
 h3.heading {
@@ -192,6 +193,7 @@ footer {
     background-color: #40474E;
     color: white;
     padding: 4rem 0 2rem;
+    margin-top:4rem;
 }
 
 footer p {
